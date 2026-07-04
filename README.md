@@ -131,8 +131,8 @@ HRMS/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/hrms.git
-cd hrms
+git clone https://github.com/venom-rose/smart-hrms.git
+cd smart-hrms
 ```
 
 ### 2️⃣ Setup Backend
