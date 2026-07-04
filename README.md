@@ -213,17 +213,17 @@ Built with passion during a hackathon 💻⚡
 ---
 ## 📸 Screenshots
 Login
-[]
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/loginpage.png)
 Dashboard
-[]
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/dashboard_adminconsole.png)
 Employees List
-[]
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/employees%20list.png)
 Attendance Analytics
-[]
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/attendance%20analytics.png)
 Payroll
-[]
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/payroll.png)
 Profile
-[]
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/profile.png)
 
 ---
 
