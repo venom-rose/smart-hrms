@@ -188,6 +188,9 @@ PORT=5000
 
 Built with passion during a hackathon 💻⚡
 *Name: Debjeet Kundu*
+*Name: Debangshu Dutta*
+*Name: Tanaya Bhattacharya*
+*Name: Indrani Biswas*
 
 ---
 
