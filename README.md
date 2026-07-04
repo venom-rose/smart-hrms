@@ -13,7 +13,7 @@ Managing HR processes manually or across disconnected tools leads to inefficienc
 This project solves that by providing a **centralized, role-based HR platform** that automates and simplifies core HR workflows.
 
 ---
-###💡 Our Solution
+## 💡 Our Solution
 
 Smart HRMS provides a streamlined platform that:
 
@@ -21,6 +21,8 @@ Smart HRMS provides a streamlined platform that:
 * Ensures secure role-based access 🔐
 * Improves productivity with a clean UI ⚡
 * Prevents unauthorized admin access 🚫
+
+---
   
 ## 🎯 Key Features
 *🛡️ Secure Role Assignment System
@@ -209,7 +211,7 @@ Built with passion during a hackathon 💻⚡
 *Name: Indrani Biswas*
 
 ---
-##📸 Screenshots
+## 📸 Screenshots
 Login
 []
 Dashboard
