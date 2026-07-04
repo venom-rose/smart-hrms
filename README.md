@@ -1,113 +1,239 @@
-# 🚀 Smart HRMS — AI-Powered Human Resource Management System
+# 🚀 Human Resource Management System (HRMS)
 
-## 📌 Overview
+> **“Every workday, perfectly aligned.”**
 
-Smart HRMS is a next-generation Human Resource Management System designed to go beyond traditional data handling. Instead of just managing employees, it focuses on **intelligent hiring, employee well-being, and productivity insights** using smart analytics.
-
----
-
-## ❗ Problem Statement
-
-Traditional HR systems mainly store and manage employee data but lack:
-
-* Intelligent hiring support
-* Employee mental health tracking
-* Data-driven decision-making
-
-This results in inefficient hiring, unnoticed burnout, and reduced productivity.
+A modern, full-stack **Human Resource Management System** designed to streamline HR operations — from employee onboarding to attendance, leave management, and payroll visibility — all in one unified platform.
 
 ---
 
+## 📌 Problem Statement
+
+Managing HR processes manually or across disconnected tools leads to inefficiency, lack of transparency, and poor employee experience.
+
+This project solves that by providing a **centralized, role-based HR platform** that automates and simplifies core HR workflows.
+
+---
 ## 💡 Our Solution
 
-Smart HRMS introduces an **AI-powered approach** to HR management by combining:
+Smart HRMS provides a streamlined platform that:
 
-* Smart candidate evaluation
-* Employee mood tracking
-* Insightful dashboards
+* Automates HR workflows ⚙️
+* Ensures secure role-based access 🔐
+* Improves productivity with a clean UI ⚡
+* Prevents unauthorized admin access 🚫
 
-It helps companies **hire better and care better**.
+---
+  
+## 🎯 Key Features
+*🛡️ Secure Role Assignment System
+→ No user can self-assign admin privileges
+*⚡ Fast & Responsive UI (Vite + React)
+*🧠 Scalable Architecture (ready for future AI features)
+*📊 Real-Time Data Handling
+*🎯 Built with hackathon efficiency + real-world usability
+
+### 🔐 Authentication & Authorization
+
+* Secure signup/login with JWT
+* Role-based access control (Employee / Admin / HR)
+* Protected routes & session handling
 
 ---
 
-## ✨ Key Features
+### 📊 Smart Dashboards
 
-### 🧠 AI Resume Analyzer
+**👤 Employee Dashboard**
 
-* Extracts key skills from resumes
-* Matches candidates with job roles
-* Provides a suitability score
+* Profile overview
+* Attendance summary
+* Leave status
+* Quick actions
 
-### 📊 Employee Mood Tracker
+**🧑‍💼 Admin/HR Dashboard**
 
-* Daily mood input system
-* Detects burnout patterns
-* Helps HR take proactive actions
+* Employee management
+* Attendance tracking (all employees)
+* Leave approvals
+* Payroll overview
 
-### 📈 Smart Dashboard
+---
 
-* Visual overview of employees
-* Performance & well-being insights
-* Easy decision-making tools
+### 👤 Employee Profile Management
 
-### 🔍 Candidate Recommendation System
+* View personal & job details
+* Salary structure visibility
+* Upload profile picture
+* Edit limited fields (Employee)
+* Full control (Admin)
 
-* Suggests best-fit candidates
-* Reduces manual screening effort
+---
+
+### 🕒 Attendance System
+
+* Check-in / Check-out functionality
+* Daily & weekly tracking
+* Status types:
+
+  * Present
+  * Absent
+  * Half-day
+  * Leave
+* Admin view for all employees
+
+---
+
+### 📝 Leave Management
+
+* Apply for leave (Paid / Sick / Unpaid)
+* Calendar-based date selection
+* Add remarks
+* Real-time status updates:
+
+  * Pending
+  * Approved
+  * Rejected
+* Admin approval system with comments
+
+---
+
+### 💰 Payroll Module
+
+* Employee: Read-only salary view
+* Admin: Manage salary structure
+* Basic components:
+
+  * Base salary
+  * Bonus
+  * Deductions
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** (e.g., HTML, CSS, JavaScript / React)
-* **Backend:** (e.g., Node.js / Python)
-* **Database:** (e.g., MongoDB / Firebase)
-* **AI/Logic:** (e.g., OpenAI API / Custom Logic)
+**Frontend**
+
+* React.js
+* Tailwind CSS
+
+**Backend**
+
+* Node.js
+* Express.js
+
+**Database**
+
+* MongoDB
+
+**Authentication**
+
+* JWT (JSON Web Tokens)
 
 ---
 
-## ⚙️ How to Run Locally
+## 📂 Project Structure
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/smart-hrms.git
-
-# Navigate to project folder
-cd smart-hrms
-
-# Install dependencies (if applicable)
-npm install
-
-# Run the project
-npm start
+```
+smart-hrms/
+├── frontend/       # React + Vite
+├── backend/        # Express API
+├── database/       # MongoDB models & schemas
+└── README.md
 ```
 
 ---
 
-## 🎯 Future Scope
+## ⚙️ Installation & Setup
 
-* Advanced AI hiring assistant
-* Face recognition attendance system
-* Integration with job portals
-* Real-time employee analytics
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/venom-rose/smart-hrms.git
+cd smart-hrms
+```
+
+### 2️⃣ Setup Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+### 3️⃣ Setup Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ---
 
-## 👥 Team
+## 🔑 Environment Variables
 
-* Debjeet Kundu
-* Indrani Biswas
-* Tanaya Bhattacharya
-* Debangshu Dutta
+Create a `.env` file in the backend:
+
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+SUPER_ADMIN_EMAIL=superadmin@company.com
+SUPER_ADMIN_PASSWORD=SuperAdminPassword123!
+```
 
 ---
 
-## 🏆 Hackathon Submission
+## 🚀 Future Enhancements
 
-This project is built as part of a hackathon to demonstrate how **AI can transform HR systems into intelligent decision-making platforms**.
+* 📧 Email notifications for approvals
+* 📊 Attendance analytics dashboard
+* 📁 Document management system
+* 📤 Export reports (CSV/PDF)
+* 🌙 Dark mode UI
 
 ---
 
-## 📄 License
+## 🧠 What Makes This Project Stand Out
 
-This project is open-source and available for learning and development purposes.
+* 🔥 Full-stack implementation with real-world HR workflows
+* ⚡ Clean UI with role-based experience
+* 🧩 Modular and scalable architecture
+* 🎯 Built with hackathon efficiency in mind
+
+---
+
+## 👨‍💻 Team / Author
+
+Built with passion during a hackathon 💻⚡
+*Name: Debjeet Kundu*
+*Name: Debangshu Dutta*
+*Name: Tanaya Bhattacharya*
+*Name: Indrani Biswas*
+
+---
+## 📸 Screenshots
+Login
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/loginpage.png)
+Dashboard
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/dashboard_adminconsole.png)
+Employees List
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/employees%20list.png)
+Attendance Analytics
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/attendance%20analytics.png)
+Payroll
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/payroll.png)
+Profile
+![image alt](https://github.com/venom-rose/smart-hrms/blob/ffae9119f1142a74f4973beb1426f8ca865ddcc8/profile.png)
+
+---
+
+## 📜 License
+
+This project is for educational and hackathon purposes.
+
+---
+
+## ⭐ Final Note
+
+If you like this project, give it a ⭐ — and if you're a judge…
+**we hope this system earns your approval 😉**
