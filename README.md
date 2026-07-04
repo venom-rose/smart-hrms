@@ -187,7 +187,7 @@ PORT=5000
 ## 👨‍💻 Team / Author
 
 Built with passion during a hackathon 💻⚡
-**[Your Name / Team Name]**
+*Name: Debjeet Kundu*
 
 ---
 
