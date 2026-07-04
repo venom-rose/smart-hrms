@@ -13,8 +13,22 @@ Managing HR processes manually or across disconnected tools leads to inefficienc
 This project solves that by providing a **centralized, role-based HR platform** that automates and simplifies core HR workflows.
 
 ---
+###💡 Our Solution
 
+Smart HRMS provides a streamlined platform that:
+
+* Automates HR workflows ⚙️
+* Ensures secure role-based access 🔐
+* Improves productivity with a clean UI ⚡
+* Prevents unauthorized admin access 🚫
+  
 ## 🎯 Key Features
+*🛡️ Secure Role Assignment System
+→ No user can self-assign admin privileges
+*⚡ Fast & Responsive UI (Vite + React)
+*🧠 Scalable Architecture (ready for future AI features)
+*📊 Real-Time Data Handling
+*🎯 Built with hackathon efficiency + real-world usability
 
 ### 🔐 Authentication & Authorization
 
@@ -117,8 +131,8 @@ This project solves that by providing a **centralized, role-based HR platform** 
 ## 📂 Project Structure
 
 ```
-HRMS/
-├── frontend/       # React UI
+smart-hrms/
+├── frontend/       # React + Vite
 ├── backend/        # Express API
 ├── database/       # MongoDB models & schemas
 └── README.md
@@ -161,6 +175,8 @@ Create a `.env` file in the backend:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
+SUPER_ADMIN_EMAIL=superadmin@company.com
+SUPER_ADMIN_PASSWORD=SuperAdminPassword123!
 ```
 
 ---
@@ -191,6 +207,21 @@ Built with passion during a hackathon 💻⚡
 *Name: Debangshu Dutta*
 *Name: Tanaya Bhattacharya*
 *Name: Indrani Biswas*
+
+---
+##📸 Screenshots
+Login
+[]
+Dashboard
+[]
+Employees List
+[]
+Attendance Analytics
+[]
+Payroll
+[]
+Profile
+[]
 
 ---
 
